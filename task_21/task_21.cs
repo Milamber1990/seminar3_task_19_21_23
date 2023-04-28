@@ -6,22 +6,23 @@
 
 
 
-Console.WriteLine("Введите координату x для первой точки");
+
+Console.Write("Введите координату x для первой точки ");
 double x1 = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите координату y для первой точки");
+Console.Write("Введите координату y для первой точки ");
 double y1 = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите координату z для первой точки");
+Console.Write("Введите координату z для первой точки ");
 double z1 = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите координату x для второй точки");
+Console.Write("Введите координату x для второй точки ");
 double x2 = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите координату y для второй точки");
+Console.Write("Введите координату y для второй точки ");
 double y2 = Convert.ToDouble(Console.ReadLine());
 
-Console.WriteLine("Введите координату z для второй точки");
+Console.Write("Введите координату z для второй точки ");
 double z2 = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine($"Расстояние между точками равно {Math.Round(rast(x1, y1, z1, x2, y2, z2),2)}");
