@@ -5,6 +5,6 @@ double result = 0;
 while (num2 <= num1)
 {
     result = Math.Pow(num2,3);
-    Console.Write($" {result}");
+    Console.Write($" |{result}|");
     num2++;
 }
